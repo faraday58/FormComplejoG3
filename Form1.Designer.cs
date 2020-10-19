@@ -50,6 +50,7 @@
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.btnConjugar = new System.Windows.Forms.Button();
             this.lbConjugar = new System.Windows.Forms.Label();
+            this.chkbNoventa = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txtbComReal1
@@ -263,11 +264,22 @@
             this.lbConjugar.Text = "Conjugar";
             this.lbConjugar.Visible = false;
             // 
+            // chkbNoventa
+            // 
+            this.chkbNoventa.AutoSize = true;
+            this.chkbNoventa.Location = new System.Drawing.Point(672, 25);
+            this.chkbNoventa.Name = "chkbNoventa";
+            this.chkbNoventa.Size = new System.Drawing.Size(53, 24);
+            this.chkbNoventa.TabIndex = 5;
+            this.chkbNoventa.Text = "90";
+            this.chkbNoventa.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(862, 322);
+            this.Controls.Add(this.chkbNoventa);
             this.Controls.Add(this.rdbConjugar);
             this.Controls.Add(this.rdbMultiplicacion);
             this.Controls.Add(this.rdbResta);
@@ -321,6 +333,7 @@
         private System.Windows.Forms.Button btnMultiplicar;
         private System.Windows.Forms.Button btnConjugar;
         private System.Windows.Forms.Label lbConjugar;
+        private System.Windows.Forms.CheckBox chkbNoventa;
     }
 }
 
